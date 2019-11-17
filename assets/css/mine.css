@@ -1,0 +1,131 @@
+.subtitle {
+    padding: 0 100px;
+}
+
+.hero-background {
+    background-image: url("../img/backgrounds/paris.jpg");
+    background-position: 0 top;
+}
+
+.navigation-header {
+    padding: 5px 0 0;
+}
+
+.bg4 {
+    background-image: url("../img/backgrounds/paris.jpg");
+}
+
+.bg3 {
+    background-image: url("../img/backgrounds/paris.jpg");
+}
+
+.speaker .photo-wrapper img {
+    height: 200px;
+}
+
+p {
+    line-height: 25px;
+}
+
+.section {
+    position: relative;
+    padding: 50px 0;
+}
+
+.lang .fa {
+    margin-right: 8px;
+    vertical-align: middle;
+    color: #babfcc;
+}
+
+.sponsor-platinium {
+    max-width: 240px;
+}
+
+.sponsor-gold {
+    max-width: 240px;
+    max-height: 80px;
+}
+
+.sponsor-adjust-1 {
+    max-height: 40px;
+}
+
+.sponsor-friendly {
+    max-width: 200px;
+    max-height: 45px;
+}
+
+.partners {
+    max-width: 80px;
+}
+
+
+/* =========== WORKSHOP ========================= */
+
+.workshop {
+    font-family: 'Raleway', sans-serif;
+    padding: 50px 0;
+    font-size: 16px;
+}
+
+.workshop-content {
+    font-size: 1em;
+    position: relative;
+    text-align: justify;
+    overflow-y: auto;
+    top: 10px;
+    height: 450px;
+    padding: 0 10px 0 10px;
+}
+
+/*
+.workshop:after {
+    content: ' ';
+    position: absolute;
+    height: 400px;
+    bottom: 150px;
+    left: 0;
+    right: 0;
+    background: linear-gradient( to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 1) 100%);
+    z-index: -1;
+    border: 0px #0a5175 dashed;
+}*/
+
+.workshop-register {
+    text-align: center;
+    padding: 30px;
+}
+
+.workshop-speaker {
+    text-align: center;
+    width: 100%;
+}
+
+.workshop-speaker .name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.workshop-speaker a {
+    text-decoration: none;
+}
+
+.workshop-speaker .title {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.workshop-speaker img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px #333 solid;
+}
+
+@media screen and (min-width: 0px) and (max-width: 1024px) {
+    .mobile-hide {
+        display: none;
+    }
+}
