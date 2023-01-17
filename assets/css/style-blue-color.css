@@ -5436,6 +5436,7 @@ button[type="submit"] .loading {
   text-align: center;
   line-height: 59px;
   color: #ffffff;
+  font: var(--fa-font-solid);
   content: "\f002";
   border-radius: 50%;
   opacity: 0;
